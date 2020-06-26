@@ -26,18 +26,18 @@ Apply blur effect to children components.
   import React form 'react'
   import MyCustomForm from './myCustomForm'
   import Blurify from 'react-blurify'
-  
+
   function MyComponent() {
-  
+
   const [loading, setLoading] = React.useState(false)
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true)
     ... submit operation
     setLoading(false)
-  } 
-  
+  }
+
   return (
       <Blurify on={loading}>
         // apply blur effect to MyCustomForm when loading
