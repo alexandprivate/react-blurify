@@ -25,7 +25,7 @@ Apply blur effect to children components.
 ```javascript
   import React form 'react'
   import MyCustomForm from './myCustomForm'
-  import Blurify from 'blurify'
+  import Blurify from 'react-blurify'
   
   function MyComponent() {
   
