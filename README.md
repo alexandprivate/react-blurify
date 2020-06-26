@@ -2,6 +2,8 @@
 
 Apply blur effect to children components.
 
+### Demo - https://blurify-demo.netlify.app/
+
 ### Component Props
 
 **children**.
