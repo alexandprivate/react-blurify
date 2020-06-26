@@ -1,0 +1,27 @@
+{
+    "name": "blurify",
+    "version": "1.0.0",
+    "description": "On demand apply blur effect to children",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "./node_modules/.bin/babel src --out-file index.js"
+    },
+    "keywords": [
+        "blur"
+    ],
+    "author": "Alex Suarez",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.10.3",
+        "@babel/core": "^7.10.3",
+        "@babel/preset-env": "^7.10.3",
+        "@babel/preset-react": "^7.10.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "peerDependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    }
+}

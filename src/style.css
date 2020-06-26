@@ -1,0 +1,13 @@
+.blurify__preloader {
+    animation: rotate 0.75s ease infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    from {
+        transform: rotate(-360deg);
+    }
+}
