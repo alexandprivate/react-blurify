@@ -1,7 +1,5 @@
 # react-blurify
 
-React blurify component
-
 Apply blur effect to children components.
 
 ### Component Props
@@ -21,3 +19,30 @@ Apply blur effect to children components.
 **preloaderBorderWidth** - number // preloader border width // default 2.
 
 **preloaderSize** - number // preloader height/width // default 36.
+
+### How to use it
+
+```javascript
+  import React form 'react'
+  import MyCustomForm from './myCustomForm'
+  import Blurify from 'blurify'
+  
+  function MyComponent() {
+  
+  const [loading, setLoading] = React.useState(false)
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true)
+    ... submit operation
+    setLoading(false)
+  } 
+  
+  return (
+      <Blurify on={loading}>
+        // apply blur effect to MyCustomForm when loading
+        <MyCustomForm onSubmit={handleSubmit}/>
+      </Blurify>
+    )
+  }
+```
