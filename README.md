@@ -2,7 +2,7 @@
 
 React blurify component
 
-Add blur effect to children components on demand
+Apply blur effect to children components.
 
 ### Component Props
 
