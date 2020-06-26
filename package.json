@@ -1,6 +1,6 @@
 {
     "name": "react-blurify",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Apply blur effect to children components",
     "main": "index.js",
     "scripts": {
