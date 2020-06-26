@@ -1,5 +1,5 @@
 {
-    "name": "blurify",
+    "name": "react-blurify",
     "version": "1.0.0",
     "description": "On demand apply blur effect to children",
     "main": "index.js",
